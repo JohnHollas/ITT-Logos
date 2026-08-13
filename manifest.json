@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "description": "Index of brand logos. Pick a version by the background the logo sits on.",
+  "root": "ITT-LogosForDesignSystem",
+  "selection_rules": {
+    "light_background": "full (default) - or black for monochrome contexts",
+    "dark_background": "white",
+    "photo_or_busy_background": "white over the darker area, with a scrim if needed",
+    "never": "white logo on light bg (invisible); color/black logo on dark bg (disappears)"
+  },
+  "brand_count": 2,
+  "brands": {
+    "omdia": {
+      "name": "Omdia",
+      "slug": "omdia",
+      "folder": "Omdia",
+      "versions": {
+        "black": {
+          "path": "ITT-LogosForDesignSystem/Omdia/Omdia-Logo-Black.png",
+          "dimensions": [
+            1691,
+            537
+          ],
+          "aspect_ratio": 3.149,
+          "backgrounds": [
+            "light"
+          ],
+          "role": "mono",
+          "note": "Monochrome contexts on light surfaces (B&W print, grayscale layouts)."
+        },
+        "full": {
+          "path": "ITT-LogosForDesignSystem/Omdia/Omdia-Logo-Full.png",
+          "dimensions": [
+            1691,
+            537
+          ],
+          "aspect_ratio": 3.149,
+          "backgrounds": [
+            "light"
+          ],
+          "role": "primary",
+          "note": "Default. Color lockup for white/light surfaces."
+        },
+        "white": {
+          "path": "ITT-LogosForDesignSystem/Omdia/Omdia-Logo-White.png",
+          "dimensions": [
+            1508,
+            454
+          ],
+          "aspect_ratio": 3.322,
+          "backgrounds": [
+            "dark"
+          ],
+          "role": "reversed",
+          "note": "White-on-transparent. Dark/navy/photo surfaces only."
+        }
+      },
+      "fallbacks": {},
+      "missing": []
+    },
+    "studio": {
+      "name": "Studio",
+      "slug": "studio",
+      "folder": "Studio",
+      "versions": {
+        "full": {
+          "path": "ITT-LogosForDesignSystem/Studio/Studio-Logo-Full.png",
+          "dimensions": [
+            3750,
+            1459
+          ],
+          "aspect_ratio": 2.57,
+          "backgrounds": [
+            "light"
+          ],
+          "role": "primary",
+          "note": "Default. Color lockup for white/light surfaces."
+        },
+        "white": {
+          "path": "ITT-LogosForDesignSystem/Studio/Studio-Logo-White.png",
+          "dimensions": [
+            3750,
+            1459
+          ],
+          "aspect_ratio": 2.57,
+          "backgrounds": [
+            "dark"
+          ],
+          "role": "reversed",
+          "note": "White-on-transparent. Dark/navy/photo surfaces only."
+        }
+      },
+      "fallbacks": {
+        "black": "full"
+      },
+      "missing": [
+        "black"
+      ]
+    }
+  }
+}
