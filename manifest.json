@@ -3,13 +3,52 @@
   "description": "Index of brand logos. Pick a version by the background the logo sits on.",
   "root": "ITT-LogosForDesignSystem",
   "selection_rules": {
-    "light_background": "full (default) - or black for monochrome contexts",
+    "light_background": "full (default) — or black for monochrome contexts",
     "dark_background": "white",
     "photo_or_busy_background": "white over the darker area, with a scrim if needed",
     "never": "white logo on light bg (invisible); color/black logo on dark bg (disappears)"
   },
-  "brand_count": 2,
+  "brand_count": 3,
   "brands": {
+    "netline": {
+      "name": "Netline",
+      "slug": "netline",
+      "folder": "Netline",
+      "versions": {
+        "full": {
+          "path": "ITT-LogosForDesignSystem/Netline/Netline-Logo-Full.png",
+          "dimensions": [
+            1741,
+            506
+          ],
+          "aspect_ratio": 3.441,
+          "backgrounds": [
+            "light"
+          ],
+          "role": "primary",
+          "note": "Default. Color lockup for white/light surfaces."
+        },
+        "white": {
+          "path": "ITT-LogosForDesignSystem/Netline/Netline-Logo-White.png",
+          "dimensions": [
+            1498,
+            427
+          ],
+          "aspect_ratio": 3.508,
+          "backgrounds": [
+            "dark"
+          ],
+          "role": "reversed",
+          "note": "White-on-transparent. Dark/navy/photo surfaces only."
+        }
+      },
+      "fallbacks": {
+        "black": "full"
+      },
+      "missing": [
+        "black"
+      ]
+    },
     "omdia": {
       "name": "Omdia",
       "slug": "omdia",
