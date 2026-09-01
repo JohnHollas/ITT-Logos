@@ -1,0 +1,3782 @@
+{
+  "schema_version": 4,
+  "description": "ITT brand logo index. Choose endorsement form (normal|endorsed), then version by background.",
+  "root": "ITT-LogosForDesignSystem",
+  "endorsement_legend": {
+    "normal": "brand lockup on its own",
+    "endorsed": "lockup with the 'by Informa TechTarget' endorsement line"
+  },
+  "form_rule": "A brand may come in one form or both; see each brand's 'forms'. If a requested form is absent, resolve via the brand's 'fallbacks' to the form that exists.",
+  "selection_rules": {
+    "light_background": "full (default)",
+    "dark_background": "white",
+    "photo_or_busy_background": "white over the darker area, with a scrim if needed",
+    "never": "white logo on a light background (invisible); color logo on a dark background (disappears)"
+  },
+  "brand_count": 58,
+  "file_count": 218,
+  "brands": {
+    "aibusiness": {
+      "name": "AIBusiness",
+      "slug": "aibusiness",
+      "folder": "AIBusiness",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/AIBusiness/AIBusiness-Logo-Full.png",
+            "dimensions": [
+              1000,
+              111
+            ],
+            "aspect_ratio": 9.009,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/AIBusiness/AIBusiness-Logo-White.png",
+            "dimensions": [
+              1000,
+              109
+            ],
+            "aspect_ratio": 9.174,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/AIBusiness/AIBusiness-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              205
+            ],
+            "aspect_ratio": 4.878,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/AIBusiness/AIBusiness-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              205
+            ],
+            "aspect_ratio": 4.878,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "bankingdive": {
+      "name": "BankingDive",
+      "slug": "bankingdive",
+      "folder": "BankingDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/BankingDive/BankingDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              172
+            ],
+            "aspect_ratio": 5.814,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/BankingDive/BankingDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              172
+            ],
+            "aspect_ratio": 5.814,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/BankingDive/BankingDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              245
+            ],
+            "aspect_ratio": 4.082,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/BankingDive/BankingDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              245
+            ],
+            "aspect_ratio": 4.082,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "biopharmadive": {
+      "name": "BiopharmaDive",
+      "slug": "biopharmadive",
+      "folder": "BiopharmaDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/BiopharmaDive/BiopharmaDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              146
+            ],
+            "aspect_ratio": 6.849,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/BiopharmaDive/BiopharmaDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              146
+            ],
+            "aspect_ratio": 6.849,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/BiopharmaDive/BiopharmaDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              208
+            ],
+            "aspect_ratio": 4.808,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/BiopharmaDive/BiopharmaDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              208
+            ],
+            "aspect_ratio": 4.808,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "blackhat": {
+      "name": "BlackHat",
+      "slug": "blackhat",
+      "folder": "BlackHat",
+      "forms": [
+        "normal"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/BlackHat/BlackHat-Logo-Full.png",
+            "dimensions": [
+              782,
+              225
+            ],
+            "aspect_ratio": 3.476,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/BlackHat/BlackHat-Logo-White.png",
+            "dimensions": [
+              782,
+              225
+            ],
+            "aspect_ratio": 3.476,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {
+        "endorsed.full": "normal.full",
+        "endorsed.white": "normal.white"
+      }
+    },
+    "brighttalk": {
+      "name": "BrightTALK",
+      "slug": "brighttalk",
+      "folder": "BrightTALK",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/BrightTALK/BrightTALK-Logo-Full.png",
+            "dimensions": [
+              3921,
+              917
+            ],
+            "aspect_ratio": 4.276,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/BrightTALK/BrightTALK-Logo-White.png",
+            "dimensions": [
+              3921,
+              917
+            ],
+            "aspect_ratio": 4.276,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/BrightTALK/BrightTALK-Logo-Full-Endorsed.png",
+            "dimensions": [
+              3921,
+              917
+            ],
+            "aspect_ratio": 4.276,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/BrightTALK/BrightTALK-Logo-White-Endorsed.png",
+            "dimensions": [
+              3921,
+              917
+            ],
+            "aspect_ratio": 4.276,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "c-storedive": {
+      "name": "C-StoreDive",
+      "slug": "c-storedive",
+      "folder": "C-StoreDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/C-StoreDive/CStoreDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              174
+            ],
+            "aspect_ratio": 5.747,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/C-StoreDive/CStoreDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              174
+            ],
+            "aspect_ratio": 5.747,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/C-StoreDive/CStoreDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              248
+            ],
+            "aspect_ratio": 4.032,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/C-StoreDive/CStoreDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              248
+            ],
+            "aspect_ratio": 4.032,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "cfo": {
+      "name": "CFO",
+      "slug": "cfo",
+      "folder": "CFO",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/CFO/CFO-Logo-Full.png",
+            "dimensions": [
+              1000,
+              611
+            ],
+            "aspect_ratio": 1.637,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/CFO/CFO-Logo-White.png",
+            "dimensions": [
+              1000,
+              611
+            ],
+            "aspect_ratio": 1.637,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/CFO/CFO-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              571
+            ],
+            "aspect_ratio": 1.751,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/CFO/CFO-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              571
+            ],
+            "aspect_ratio": 1.751,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "cfodive": {
+      "name": "CFODive",
+      "slug": "cfodive",
+      "folder": "CFODive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/CFODive/CFODive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              241
+            ],
+            "aspect_ratio": 4.149,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/CFODive/CFODive-Logo-White.png",
+            "dimensions": [
+              1000,
+              241
+            ],
+            "aspect_ratio": 4.149,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/CFODive/CFODive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/CFODive/CFODive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "channeldive": {
+      "name": "ChannelDive",
+      "slug": "channeldive",
+      "folder": "ChannelDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/ChannelDive/ChannelDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              165
+            ],
+            "aspect_ratio": 6.061,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/ChannelDive/ChannelDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              165
+            ],
+            "aspect_ratio": 6.061,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/ChannelDive/ChannelDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              236
+            ],
+            "aspect_ratio": 4.237,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/ChannelDive/ChannelDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              236
+            ],
+            "aspect_ratio": 4.237,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "ciodive": {
+      "name": "CIODive",
+      "slug": "ciodive",
+      "folder": "CIODive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/CIODive/CIODive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              252
+            ],
+            "aspect_ratio": 3.968,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/CIODive/CIODive-Logo-White.png",
+            "dimensions": [
+              1000,
+              252
+            ],
+            "aspect_ratio": 3.968,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/CIODive/CIODive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/CIODive/CIODive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "computerweekly": {
+      "name": "ComputerWeekly",
+      "slug": "computerweekly",
+      "folder": "ComputerWeekly",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/ComputerWeekly/ComputerWeekly-Logo-Full.png",
+            "dimensions": [
+              1000,
+              164
+            ],
+            "aspect_ratio": 6.098,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/ComputerWeekly/ComputerWeekly-Logo-White.png",
+            "dimensions": [
+              1000,
+              165
+            ],
+            "aspect_ratio": 6.061,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/ComputerWeekly/ComputerWeekly-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              231
+            ],
+            "aspect_ratio": 4.329,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/ComputerWeekly/ComputerWeekly-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              243
+            ],
+            "aspect_ratio": 4.115,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "constructiondive": {
+      "name": "ConstructionDive",
+      "slug": "constructiondive",
+      "folder": "ConstructionDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/ConstructionDive/ConstructionDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              125
+            ],
+            "aspect_ratio": 8.0,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/ConstructionDive/ConstructionDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              125
+            ],
+            "aspect_ratio": 8.0,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/ConstructionDive/ConstructionDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              178
+            ],
+            "aspect_ratio": 5.618,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/ConstructionDive/ConstructionDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              178
+            ],
+            "aspect_ratio": 5.618,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "cxdive": {
+      "name": "CXDive",
+      "slug": "cxdive",
+      "folder": "CXDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/CXDive/CXDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              267
+            ],
+            "aspect_ratio": 3.745,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/CXDive/CXDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              267
+            ],
+            "aspect_ratio": 3.745,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/CXDive/CXDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/CXDive/CXDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "cybersecuritydive": {
+      "name": "CybersecurityDive",
+      "slug": "cybersecuritydive",
+      "folder": "CybersecurityDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/CybersecurityDive/CybersecurityDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              123
+            ],
+            "aspect_ratio": 8.13,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/CybersecurityDive/CybersecurityDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              123
+            ],
+            "aspect_ratio": 8.13,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/CybersecurityDive/CybersecurityDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              176
+            ],
+            "aspect_ratio": 5.682,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/CybersecurityDive/CybersecurityDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              176
+            ],
+            "aspect_ratio": 5.682,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "darkreading": {
+      "name": "DarkReading",
+      "slug": "darkreading",
+      "folder": "DarkReading",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/DarkReading/DarkReading-Logo-Full.png",
+            "dimensions": [
+              1000,
+              112
+            ],
+            "aspect_ratio": 8.929,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/DarkReading/DarkReading-Logo-White.png",
+            "dimensions": [
+              1000,
+              112
+            ],
+            "aspect_ratio": 8.929,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/DarkReading/DarkReading-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              198
+            ],
+            "aspect_ratio": 5.051,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/DarkReading/DarkReading-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              198
+            ],
+            "aspect_ratio": 5.051,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "datacenterknowledge": {
+      "name": "DataCenterKnowledge",
+      "slug": "datacenterknowledge",
+      "folder": "DataCenterKnowledge",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/DataCenterKnowledge/DataCenterKnowledge-Logo-Full.png",
+            "dimensions": [
+              1000,
+              337
+            ],
+            "aspect_ratio": 2.967,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/DataCenterKnowledge/DataCenterKnowledge-Logo-White.png",
+            "dimensions": [
+              1000,
+              337
+            ],
+            "aspect_ratio": 2.967,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/DataCenterKnowledge/DataCenterKnowledge-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              452
+            ],
+            "aspect_ratio": 2.212,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/DataCenterKnowledge/DataCenterKnowledge-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              452
+            ],
+            "aspect_ratio": 2.212,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "divelive": {
+      "name": "DiveLive",
+      "slug": "divelive",
+      "folder": "DiveLive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/DiveLive/DiveLive-Logo-Full.png",
+            "dimensions": [
+              1096,
+              181
+            ],
+            "aspect_ratio": 6.055,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/DiveLive/DiveLive-Logo-White.png",
+            "dimensions": [
+              1096,
+              181
+            ],
+            "aspect_ratio": 6.055,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/DiveLive/DiveLive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1096,
+              192
+            ],
+            "aspect_ratio": 5.708,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/DiveLive/DiveLive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1096,
+              192
+            ],
+            "aspect_ratio": 5.708,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "esgdive": {
+      "name": "ESGDive",
+      "slug": "esgdive",
+      "folder": "ESGDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/ESGDive/ESGDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              244
+            ],
+            "aspect_ratio": 4.098,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/ESGDive/ESGDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              244
+            ],
+            "aspect_ratio": 4.098,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/ESGDive/ESGDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/ESGDive/ESGDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "facilitiesdive": {
+      "name": "FacilitiesDive",
+      "slug": "facilitiesdive",
+      "folder": "FacilitiesDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/FacilitiesDive/FacilitiesDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              161
+            ],
+            "aspect_ratio": 6.211,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/FacilitiesDive/FacilitiesDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              161
+            ],
+            "aspect_ratio": 6.211,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/FacilitiesDive/FacilitiesDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              230
+            ],
+            "aspect_ratio": 4.348,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/FacilitiesDive/FacilitiesDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              230
+            ],
+            "aspect_ratio": 4.348,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "fooddive": {
+      "name": "FoodDive",
+      "slug": "fooddive",
+      "folder": "FoodDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/FoodDive/FoodDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              215
+            ],
+            "aspect_ratio": 4.651,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/FoodDive/FoodDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              215
+            ],
+            "aspect_ratio": 4.651,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/FoodDive/FoodDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/FoodDive/FoodDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "grocerydive": {
+      "name": "GroceryDive",
+      "slug": "grocerydive",
+      "folder": "GroceryDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/GroceryDive/GroceryDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              167
+            ],
+            "aspect_ratio": 5.988,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/GroceryDive/GroceryDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              167
+            ],
+            "aspect_ratio": 5.988,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/GroceryDive/GroceryDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              239
+            ],
+            "aspect_ratio": 4.184,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/GroceryDive/GroceryDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              239
+            ],
+            "aspect_ratio": 4.184,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "hdi": {
+      "name": "HDI",
+      "slug": "hdi",
+      "folder": "HDI",
+      "forms": [
+        "endorsed"
+      ],
+      "variants": {
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/HDI/HDI-Logo-Full-Endorsed.png",
+            "dimensions": [
+              348,
+              142
+            ],
+            "aspect_ratio": 2.451,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/HDI/HDI-Logo-White-Endorsed.png",
+            "dimensions": [
+              348,
+              141
+            ],
+            "aspect_ratio": 2.468,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {
+        "normal.full": "endorsed.full",
+        "normal.white": "endorsed.white"
+      }
+    },
+    "healthcaredive": {
+      "name": "HealthcareDive",
+      "slug": "healthcaredive",
+      "folder": "HealthcareDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/HealthcareDive/HealthcareDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              139
+            ],
+            "aspect_ratio": 7.194,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/HealthcareDive/HealthcareDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              139
+            ],
+            "aspect_ratio": 7.194,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/HealthcareDive/HealthcareDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              199
+            ],
+            "aspect_ratio": 5.025,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/HealthcareDive/HealthcareDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              199
+            ],
+            "aspect_ratio": 5.025,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "highereddive": {
+      "name": "HigherEdDive",
+      "slug": "highereddive",
+      "folder": "HigherEdDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/HigherEdDive/HigherEdDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              156
+            ],
+            "aspect_ratio": 6.41,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/HigherEdDive/HigherEdDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              156
+            ],
+            "aspect_ratio": 6.41,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/HigherEdDive/HigherEdDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              223
+            ],
+            "aspect_ratio": 4.484,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/HigherEdDive/HigherEdDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              223
+            ],
+            "aspect_ratio": 4.484,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "hoteldive": {
+      "name": "HotelDive",
+      "slug": "hoteldive",
+      "folder": "HotelDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/HotelDive/HotelDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              200
+            ],
+            "aspect_ratio": 5.0,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/HotelDive/HotelDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              200
+            ],
+            "aspect_ratio": 5.0,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/HotelDive/HotelDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/HotelDive/HotelDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "hrdive": {
+      "name": "HRDive",
+      "slug": "hrdive",
+      "folder": "HRDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/HRDive/HRDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              267
+            ],
+            "aspect_ratio": 3.745,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/HRDive/HRDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              267
+            ],
+            "aspect_ratio": 3.745,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/HRDive/HRDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/HRDive/HRDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "icmi": {
+      "name": "ICMI",
+      "slug": "icmi",
+      "folder": "ICMI",
+      "forms": [
+        "endorsed"
+      ],
+      "variants": {
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/ICMI/ICMI-Logo-Full-Endorsed.png",
+            "dimensions": [
+              891,
+              303
+            ],
+            "aspect_ratio": 2.941,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/ICMI/ICMI-Logo-White-Endorsed.png",
+            "dimensions": [
+              891,
+              303
+            ],
+            "aspect_ratio": 2.941,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {
+        "normal.full": "endorsed.full",
+        "normal.white": "endorsed.white"
+      }
+    },
+    "industrydive": {
+      "name": "IndustryDive",
+      "slug": "industrydive",
+      "folder": "IndustryDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/IndustryDive/IndustryDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              163
+            ],
+            "aspect_ratio": 6.135,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/IndustryDive/IndustryDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              163
+            ],
+            "aspect_ratio": 6.135,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/IndustryDive/IndustryDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              232
+            ],
+            "aspect_ratio": 4.31,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/IndustryDive/IndustryDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              232
+            ],
+            "aspect_ratio": 4.31,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "informationweek": {
+      "name": "InformationWeek",
+      "slug": "informationweek",
+      "folder": "InformationWeek",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/InformationWeek/InformationWeek-Logo-Full.png",
+            "dimensions": [
+              1000,
+              231
+            ],
+            "aspect_ratio": 4.329,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/InformationWeek/InformationWeek-Logo-White.png",
+            "dimensions": [
+              1000,
+              231
+            ],
+            "aspect_ratio": 4.329,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/InformationWeek/InformationWeek-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              231
+            ],
+            "aspect_ratio": 4.329,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/InformationWeek/InformationWeek-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              231
+            ],
+            "aspect_ratio": 4.329,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "k-12dive": {
+      "name": "K-12Dive",
+      "slug": "k-12dive",
+      "folder": "K-12Dive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/K-12Dive/K-12Dive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              237
+            ],
+            "aspect_ratio": 4.219,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/K-12Dive/K-12Dive-Logo-White.png",
+            "dimensions": [
+              1000,
+              237
+            ],
+            "aspect_ratio": 4.219,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/K-12Dive/K-12Dive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/K-12Dive/K-12Dive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "lemagit": {
+      "name": "LeMagIT",
+      "slug": "lemagit",
+      "folder": "LeMagIT",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/LeMagIT/LeMagIT-Logo-Full.png",
+            "dimensions": [
+              1000,
+              223
+            ],
+            "aspect_ratio": 4.484,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/LeMagIT/LeMagIT-Logo-White.png",
+            "dimensions": [
+              1000,
+              223
+            ],
+            "aspect_ratio": 4.484,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/LeMagIT/LeMagIT-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              357
+            ],
+            "aspect_ratio": 2.801,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/LeMagIT/LeMagIT-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              388
+            ],
+            "aspect_ratio": 2.577,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "lightreading": {
+      "name": "LightReading",
+      "slug": "lightreading",
+      "folder": "LightReading",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/LightReading/LightReading-Logo-Full.png",
+            "dimensions": [
+              1000,
+              140
+            ],
+            "aspect_ratio": 7.143,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/LightReading/LightReading-Logo-White.png",
+            "dimensions": [
+              1000,
+              140
+            ],
+            "aspect_ratio": 7.143,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/LightReading/LightReading-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              213
+            ],
+            "aspect_ratio": 4.695,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/LightReading/LightReading-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              213
+            ],
+            "aspect_ratio": 4.695,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "manufacturingdive": {
+      "name": "ManufacturingDive",
+      "slug": "manufacturingdive",
+      "folder": "ManufacturingDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/ManufacturingDive/ManufacturingDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              119
+            ],
+            "aspect_ratio": 8.403,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/ManufacturingDive/ManufacturingDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              119
+            ],
+            "aspect_ratio": 8.403,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/ManufacturingDive/ManufacturingDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              169
+            ],
+            "aspect_ratio": 5.917,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/ManufacturingDive/ManufacturingDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              169
+            ],
+            "aspect_ratio": 5.917,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "marketingdive": {
+      "name": "MarketingDive",
+      "slug": "marketingdive",
+      "folder": "MarketingDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/MarketingDive/MarketingDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              149
+            ],
+            "aspect_ratio": 6.711,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/MarketingDive/MarketingDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              149
+            ],
+            "aspect_ratio": 6.711,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/MarketingDive/MarketingDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              212
+            ],
+            "aspect_ratio": 4.717,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/MarketingDive/MarketingDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              212
+            ],
+            "aspect_ratio": 4.717,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "medtechdive": {
+      "name": "MedTechDive",
+      "slug": "medtechdive",
+      "folder": "MedTechDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/MedTechDive/MedTechDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              166
+            ],
+            "aspect_ratio": 6.024,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/MedTechDive/MedTechDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              166
+            ],
+            "aspect_ratio": 6.024,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/MedTechDive/MedTechDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              236
+            ],
+            "aspect_ratio": 4.237,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/MedTechDive/MedTechDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              236
+            ],
+            "aspect_ratio": 4.237,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "microscope": {
+      "name": "Microscope",
+      "slug": "microscope",
+      "folder": "Microscope",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/Microscope/Microscope-Logo-Full.png",
+            "dimensions": [
+              1000,
+              181
+            ],
+            "aspect_ratio": 5.525,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/Microscope/Microscope-Logo-White.png",
+            "dimensions": [
+              1000,
+              181
+            ],
+            "aspect_ratio": 5.525,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/Microscope/Microscope-Logo-Full-Endorsed.png",
+            "dimensions": [
+              558,
+              138
+            ],
+            "aspect_ratio": 4.043,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/Microscope/Microscope-Logo-White-Endorsed.png",
+            "dimensions": [
+              558,
+              138
+            ],
+            "aspect_ratio": 4.043,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "multifamilydive": {
+      "name": "MultiFamilyDive",
+      "slug": "multifamilydive",
+      "folder": "MultiFamilyDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/MultiFamilyDive/MultiFamilyDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              141
+            ],
+            "aspect_ratio": 7.092,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/MultiFamilyDive/MultiFamilyDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              141
+            ],
+            "aspect_ratio": 7.092,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/MultiFamilyDive/MultiFamilyDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              201
+            ],
+            "aspect_ratio": 4.975,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/MultiFamilyDive/MultiFamilyDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              201
+            ],
+            "aspect_ratio": 4.975,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "netline": {
+      "name": "Netline",
+      "slug": "netline",
+      "folder": "Netline",
+      "forms": [
+        "normal"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/Netline/Netline-Logo-Full.png",
+            "dimensions": [
+              1741,
+              506
+            ],
+            "aspect_ratio": 3.441,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/Netline/Netline-Logo-White.png",
+            "dimensions": [
+              1498,
+              427
+            ],
+            "aspect_ratio": 3.508,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {
+        "endorsed.full": "normal.full",
+        "endorsed.white": "normal.white"
+      }
+    },
+    "nojitter": {
+      "name": "NoJitter",
+      "slug": "nojitter",
+      "folder": "NoJitter",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/NoJitter/NoJitter-Logo-Full.png",
+            "dimensions": [
+              1000,
+              415
+            ],
+            "aspect_ratio": 2.41,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/NoJitter/NoJitter-Logo-White.png",
+            "dimensions": [
+              1000,
+              415
+            ],
+            "aspect_ratio": 2.41,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/NoJitter/NoJitter-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              507
+            ],
+            "aspect_ratio": 1.972,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/NoJitter/NoJitter-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              507
+            ],
+            "aspect_ratio": 1.972,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "omdia": {
+      "name": "Omdia",
+      "slug": "omdia",
+      "folder": "Omdia",
+      "forms": [
+        "endorsed"
+      ],
+      "variants": {
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/Omdia/Omdia-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1691,
+              537
+            ],
+            "aspect_ratio": 3.149,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/Omdia/Omdia-Logo-White-Endorsed.png",
+            "dimensions": [
+              1508,
+              454
+            ],
+            "aspect_ratio": 3.322,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {
+        "normal.full": "endorsed.full",
+        "normal.white": "endorsed.white"
+      }
+    },
+    "packagingdive": {
+      "name": "PackagingDive",
+      "slug": "packagingdive",
+      "folder": "PackagingDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/PackagingDive/PackagingDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              150
+            ],
+            "aspect_ratio": 6.667,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/PackagingDive/PackagingDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              150
+            ],
+            "aspect_ratio": 6.667,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/PackagingDive/PackagingDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              216
+            ],
+            "aspect_ratio": 4.63,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/PackagingDive/PackagingDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              216
+            ],
+            "aspect_ratio": 4.63,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "paymentsdive": {
+      "name": "PaymentsDive",
+      "slug": "paymentsdive",
+      "folder": "PaymentsDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/PaymentsDive/PaymentsDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              156
+            ],
+            "aspect_ratio": 6.41,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/PaymentsDive/PaymentsDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              156
+            ],
+            "aspect_ratio": 6.41,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/PaymentsDive/PaymentsDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              223
+            ],
+            "aspect_ratio": 4.484,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/PaymentsDive/PaymentsDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              223
+            ],
+            "aspect_ratio": 4.484,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "pharmavoice": {
+      "name": "PharmaVoice",
+      "slug": "pharmavoice",
+      "folder": "PharmaVoice",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/PharmaVoice/PharmaVoice-Logo-Full.png",
+            "dimensions": [
+              1000,
+              135
+            ],
+            "aspect_ratio": 7.407,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/PharmaVoice/PharmaVoice-Logo-White.png",
+            "dimensions": [
+              1000,
+              135
+            ],
+            "aspect_ratio": 7.407,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/PharmaVoice/PharmaVoice-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              202
+            ],
+            "aspect_ratio": 4.95,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/PharmaVoice/PharmaVoice-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              202
+            ],
+            "aspect_ratio": 4.95,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "restaurantdive": {
+      "name": "RestaurantDive",
+      "slug": "restaurantdive",
+      "folder": "RestaurantDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/RestaurantDive/RestaurantDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              139
+            ],
+            "aspect_ratio": 7.194,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/RestaurantDive/RestaurantDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              139
+            ],
+            "aspect_ratio": 7.194,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/RestaurantDive/RestaurantDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              198
+            ],
+            "aspect_ratio": 5.051,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/RestaurantDive/RestaurantDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              198
+            ],
+            "aspect_ratio": 5.051,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "retaildive": {
+      "name": "RetailDive",
+      "slug": "retaildive",
+      "folder": "RetailDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/RetailDive/RetailDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              196
+            ],
+            "aspect_ratio": 5.102,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/RetailDive/RetailDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              196
+            ],
+            "aspect_ratio": 5.102,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/RetailDive/RetailDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/RetailDive/RetailDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "smartcitiesdive": {
+      "name": "SmartCitiesDive",
+      "slug": "smartcitiesdive",
+      "folder": "SmartCitiesDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/SmartCitiesDive/SmartCitiesDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              140
+            ],
+            "aspect_ratio": 7.143,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/SmartCitiesDive/SmartCitiesDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              140
+            ],
+            "aspect_ratio": 7.143,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/SmartCitiesDive/SmartCitiesDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              200
+            ],
+            "aspect_ratio": 5.0,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/SmartCitiesDive/SmartCitiesDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              200
+            ],
+            "aspect_ratio": 5.0,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "socialmediatoday": {
+      "name": "SocialMediaToday",
+      "slug": "socialmediatoday",
+      "folder": "SocialMediaToday",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/SocialMediaToday/SocialMediaToday-Logo-Full.png",
+            "dimensions": [
+              1000,
+              172
+            ],
+            "aspect_ratio": 5.814,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/SocialMediaToday/SocialMediaToday-Logo-White.png",
+            "dimensions": [
+              1000,
+              172
+            ],
+            "aspect_ratio": 5.814,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/SocialMediaToday/SocialMediaToday-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              215
+            ],
+            "aspect_ratio": 4.651,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/SocialMediaToday/SocialMediaToday-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              216
+            ],
+            "aspect_ratio": 4.63,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "studio": {
+      "name": "Studio",
+      "slug": "studio",
+      "folder": "Studio",
+      "forms": [
+        "endorsed"
+      ],
+      "variants": {
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/Studio/Studio-Logo-Full-Endorsed.png",
+            "dimensions": [
+              3132,
+              923
+            ],
+            "aspect_ratio": 3.393,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/Studio/Studio-Logo-White-Endorsed.png",
+            "dimensions": [
+              3128,
+              917
+            ],
+            "aspect_ratio": 3.411,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {
+        "normal.full": "endorsed.full",
+        "normal.white": "endorsed.white"
+      }
+    },
+    "supplychaindive": {
+      "name": "SupplyChainDive",
+      "slug": "supplychaindive",
+      "folder": "SupplyChainDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/SupplyChainDive/SupplyChainDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              135
+            ],
+            "aspect_ratio": 7.407,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/SupplyChainDive/SupplyChainDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              135
+            ],
+            "aspect_ratio": 7.407,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/SupplyChainDive/SupplyChainDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              193
+            ],
+            "aspect_ratio": 5.181,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/SupplyChainDive/SupplyChainDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              193
+            ],
+            "aspect_ratio": 5.181,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "techtarget": {
+      "name": "TechTarget",
+      "slug": "techtarget",
+      "folder": "TechTarget",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/TechTarget/TechTarget-Logo-Full.png",
+            "dimensions": [
+              1000,
+              176
+            ],
+            "aspect_ratio": 5.682,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/TechTarget/TechTarget-Logo-White.png",
+            "dimensions": [
+              1000,
+              176
+            ],
+            "aspect_ratio": 5.682,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/TechTarget/TechTarget-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              272
+            ],
+            "aspect_ratio": 3.676,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/TechTarget/TechTarget-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              275
+            ],
+            "aspect_ratio": 3.636,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "telecoms": {
+      "name": "Telecoms",
+      "slug": "telecoms",
+      "folder": "Telecoms",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/Telecoms/Telecoms-Logo-Full.png",
+            "dimensions": [
+              1000,
+              286
+            ],
+            "aspect_ratio": 3.497,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/Telecoms/Telecoms-Logo-White.png",
+            "dimensions": [
+              1000,
+              286
+            ],
+            "aspect_ratio": 3.497,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/Telecoms/Telecoms-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              391
+            ],
+            "aspect_ratio": 2.558,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/Telecoms/Telecoms-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              391
+            ],
+            "aspect_ratio": 2.558,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "theserverside": {
+      "name": "TheServerSide",
+      "slug": "theserverside",
+      "folder": "TheServerSide",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/TheServerSide/TheServerSide-Logo-Full.png",
+            "dimensions": [
+              903,
+              172
+            ],
+            "aspect_ratio": 5.25,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/TheServerSide/TheServerSide-Logo-White.png",
+            "dimensions": [
+              903,
+              172
+            ],
+            "aspect_ratio": 5.25,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/TheServerSide/TheServerSide-Logo-Full-Endorsed.png",
+            "dimensions": [
+              434,
+              111
+            ],
+            "aspect_ratio": 3.91,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/TheServerSide/TheServerSide-Logo-White-Endorsed.png",
+            "dimensions": [
+              434,
+              111
+            ],
+            "aspect_ratio": 3.91,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "truckingdive": {
+      "name": "TruckingDive",
+      "slug": "truckingdive",
+      "folder": "TruckingDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/TruckingDive/TruckingDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              161
+            ],
+            "aspect_ratio": 6.211,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/TruckingDive/TruckingDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              161
+            ],
+            "aspect_ratio": 6.211,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/TruckingDive/TruckingDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              230
+            ],
+            "aspect_ratio": 4.348,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/TruckingDive/TruckingDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              230
+            ],
+            "aspect_ratio": 4.348,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "utilitydive": {
+      "name": "UtilityDive",
+      "slug": "utilitydive",
+      "folder": "UtilityDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/UtilityDive/UtilityDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              185
+            ],
+            "aspect_ratio": 5.405,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/UtilityDive/UtilityDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              185
+            ],
+            "aspect_ratio": 5.405,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/UtilityDive/UtilityDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              264
+            ],
+            "aspect_ratio": 3.788,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/UtilityDive/UtilityDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              264
+            ],
+            "aspect_ratio": 3.788,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "wardsauto": {
+      "name": "WardsAuto",
+      "slug": "wardsauto",
+      "folder": "WardsAuto",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/WardsAuto/WardsAuto-Logo-Full.png",
+            "dimensions": [
+              1000,
+              146
+            ],
+            "aspect_ratio": 6.849,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/WardsAuto/WardsAuto-Logo-White.png",
+            "dimensions": [
+              1000,
+              146
+            ],
+            "aspect_ratio": 6.849,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/WardsAuto/WardsAuto-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              181
+            ],
+            "aspect_ratio": 5.525,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/WardsAuto/WardsAuto-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              181
+            ],
+            "aspect_ratio": 5.525,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "wastedive": {
+      "name": "WasteDive",
+      "slug": "wastedive",
+      "folder": "WasteDive",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/WasteDive/WasteDive-Logo-Full.png",
+            "dimensions": [
+              1000,
+              197
+            ],
+            "aspect_ratio": 5.076,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/WasteDive/WasteDive-Logo-White.png",
+            "dimensions": [
+              1000,
+              197
+            ],
+            "aspect_ratio": 5.076,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/WasteDive/WasteDive-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/WasteDive/WasteDive-Logo-White-Endorsed.png",
+            "dimensions": [
+              1000,
+              279
+            ],
+            "aspect_ratio": 3.584,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "whatis": {
+      "name": "WhatIs",
+      "slug": "whatis",
+      "folder": "WhatIs",
+      "forms": [
+        "normal",
+        "endorsed"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/WhatIs/WhatIs-Logo-Full.png",
+            "dimensions": [
+              3418,
+              1500
+            ],
+            "aspect_ratio": 2.279,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/WhatIs/WhatIs-Logo-White.png",
+            "dimensions": [
+              1641,
+              721
+            ],
+            "aspect_ratio": 2.276,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        },
+        "endorsed": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/WhatIs/WhatIs-Logo-Full-Endorsed.png",
+            "dimensions": [
+              1641,
+              721
+            ],
+            "aspect_ratio": 2.276,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/WhatIs/WhatIs-Logo-White-Endorsed.png",
+            "dimensions": [
+              3418,
+              1500
+            ],
+            "aspect_ratio": 2.279,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {}
+    },
+    "xtelligent": {
+      "name": "Xtelligent",
+      "slug": "xtelligent",
+      "folder": "Xtelligent",
+      "forms": [
+        "normal"
+      ],
+      "variants": {
+        "normal": {
+          "full": {
+            "path": "ITT-LogosForDesignSystem/Xtelligent/Xtelligent-Logo-Full.png",
+            "dimensions": [
+              624,
+              153
+            ],
+            "aspect_ratio": 4.078,
+            "backgrounds": [
+              "light"
+            ],
+            "role": "primary",
+            "note": "Color lockup for white/light surfaces (default)."
+          },
+          "white": {
+            "path": "ITT-LogosForDesignSystem/Xtelligent/Xtelligent-Logo-White.png",
+            "dimensions": [
+              624,
+              153
+            ],
+            "aspect_ratio": 4.078,
+            "backgrounds": [
+              "dark"
+            ],
+            "role": "reversed",
+            "note": "White-on-transparent. Dark/navy/photo surfaces only."
+          }
+        }
+      },
+      "fallbacks": {
+        "endorsed.full": "normal.full",
+        "endorsed.white": "normal.white"
+      }
+    }
+  }
+}
