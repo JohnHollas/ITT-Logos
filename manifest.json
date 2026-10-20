@@ -4014,6 +4014,6 @@
     }
   },
   "schema_changes": [
-    "v5: added 'pptMinHeight' (from official registryVersion 1354) to every variant under brands.*.variants.*.*. null = no official value available. No other fields changed."
+    "v5: added 'pptMinHeight' (from official registryVersion 1354) to every variant under brands.*.variants.*.*. pptMinHeight is the minimum placed logo height in inches. null = no official value available. No other fields changed."
   ]
 }
